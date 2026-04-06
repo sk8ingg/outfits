@@ -1,0 +1,44 @@
+[
+  {
+    "id": "work-1",
+    "title": "Fur-hood & lyric denim",
+    "styles": ["street 2k", "opium", "y2k"],
+    "image": "images/work-1.png",
+    "note": "Black oversized zip hoodie with fur-lined hood; wide black denim with full-column white type; chunky soles — dark 2000s street silhouette."
+  },
+  {
+    "id": "work-2",
+    "title": "Engraved knit & maxi denim",
+    "styles": ["opium", "y2k", "street"],
+    "image": "images/work-2.png",
+    "note": "Cream knit with large black classical graphics; long dark denim with pink tribal side panels; technical silver backpack and high-top stacked sneakers."
+  },
+  {
+    "id": "work-3",
+    "title": "Tribal jersey & JNCO denim",
+    "styles": ["cyber y2k", "tribal street", "opium-adjacent"],
+    "image": "images/work-3.png",
+    "note": "Burgundy pinstripe jersey with heavy tribal skull art front and cyber-gothic back print; faux-fur trapper hat with star; faded ultra-wide blue jeans with side tribal panels; platform lug boots — not the same as a minimal opium fit, more neo-tribal / late-Y2K energy."
+  },
+  {
+    "id": "work-4",
+    "title": "Leather stack & spiked bag",
+    "styles": ["opium", "avant-garde street", "neo-punk"],
+    "image": "images/work-4.png",
+    "note": "Cropped black leather bomber over hood; distressed blue denim with extra layered / cargo-leg volume; black platform footwear; neon pink spiked backpack as the single high-vis pop — maximal dark street, not summer or gorpcore."
+  },
+  {
+    "id": "work-5",
+    "title": "Palm shirt & boombox",
+    "styles": ["retro summer street", "tropical y2k", "vintage urban"],
+    "image": "images/work-5.png",
+    "note": "Yellow palm-print short-sleeve shirt, knee cargo shorts, Rasta-striped beanie, flip-flops, silver boombox prop — relaxed 90s–2000s beach / hip-hop summer; intentionally not opium or dark street."
+  },
+  {
+    "id": "work-6",
+    "title": "Leaf shirt & fishing rod",
+    "styles": ["gorpcore", "summer street", "tropical leisure"],
+    "image": "images/work-6.png",
+    "note": "Burnt-orange tropical leaf button shirt, tan wide cargos, black bucket hat and blackout shades, sage foam clogs, fishing rod prop — outdoorsy ironic summer; different from the boombox look (more gorp / leisure than retro boombox hip-hop)."
+  }
+]

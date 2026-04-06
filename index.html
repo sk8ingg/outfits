@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Custom outfit concepts by Emir Prokop — 2k street, opium, y2k & more. Warsaw-based. Book on Fiverr."
+    />
+    <title>Emir Prokop — outfit concepts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      window.__FIVERR_PROFILE_URL__ = "https://www.fiverr.com/sk8ingg";
+    </script>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <button
+      type="button"
+      class="menu-btn"
+      id="menuBtn"
+      aria-expanded="false"
+      aria-controls="contactDock"
+      aria-label="Open contact details"
+    >
+      <span class="menu-btn__bar"></span>
+      <span class="menu-btn__bar"></span>
+      <span class="menu-btn__bar"></span>
+    </button>
+
+    <div class="sheet-backdrop" id="sheetBackdrop" hidden aria-hidden="true"></div>
+
+    <aside
+      class="contact-dock"
+      id="contactDock"
+      aria-label="Contact details"
+    >
+      <div class="contact-dock__panel">
+        <h2 class="contact-dock__heading">Contact</h2>
+        <p class="contact-dock__lead">
+          Reach out here if you want to talk outside Fiverr — for orders, use the gig page.
+        </p>
+        <dl class="contact-dock__list">
+          <dt>Name</dt>
+          <dd>Emir Prokop</dd>
+          <dt>Age &amp; place</dt>
+          <dd>14 · born in Poland, based in Warsaw</dd>
+          <dt>Email</dt>
+          <dd>
+            <a href="mailto:emirprokop1@gmail.com">emirprokop1@gmail.com</a>
+          </dd>
+        </dl>
+        <a
+          class="contact-dock__fiverr"
+          href="https://www.fiverr.com/sk8ingg"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Fiverr profile →</a
+        >
+      </div>
+      <div class="contact-dock__tab" aria-hidden="true">
+        <span class="contact-dock__tab-text">contact</span>
+      </div>
+    </aside>
+
+    <header class="top">
+      <div class="brand">
+        <span class="brand__mark">//</span>
+        <div class="brand__text">
+          <h1 class="brand__title">Outfit concepts</h1>
+          <p class="brand__sub">
+            I’m Emir — I build custom outfit ideas for clients. Strongest in
+            <span class="hilite">2k street</span>, <span class="hilite">opium</span> &amp;
+            <span class="hilite">y2k</span>, but I can work in other directions too.
+          </p>
+        </div>
+      </div>
+      <a
+        class="cta"
+        id="fiverrCta"
+        href="https://www.fiverr.com/sk8ingg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Order on Fiverr
+        <span class="cta__hint">friendly intro rates · doing it for the craft</span>
+      </a>
+    </header>
+
+    <main class="stage" aria-live="polite">
+      <button type="button" class="navbtn navbtn--prev" aria-label="Previous work">
+        <span aria-hidden="true">‹</span>
+      </button>
+      <div class="frame">
+        <div class="frame__meta">
+          <p class="frame__index"><span id="curIdx">1</span> / <span id="total">—</span></p>
+          <h2 class="frame__title" id="workTitle">—</h2>
+          <ul class="tags" id="workTags"></ul>
+          <p class="frame__note" id="workNote"></p>
+        </div>
+        <figure class="frame__fig">
+          <img id="workImg" src="" alt="" />
+        </figure>
+      </div>
+      <button type="button" class="navbtn navbtn--next" aria-label="Next work">
+        <span aria-hidden="true">›</span>
+      </button>
+    </main>
+
+    <nav class="rail" id="thumbRail" aria-label="All works"></nav>
+
+    <p class="hint">Use ← → keys or swipe · click thumbnails to jump</p>
+
+    <script src="app.js"></script>
+  </body>
+</html>
